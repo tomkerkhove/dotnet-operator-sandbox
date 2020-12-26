@@ -1,0 +1,6 @@
+commonLabels:
+  operator-element: crd
+resources:
+- metricdeclarationentitys_promitor_io.yaml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
